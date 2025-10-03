@@ -1,9 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 #logo{
-    margin: 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 20px;
+    text-align: right;
+    justify-content: right;
+    float: right;
     width: 60px;
+}
+
+#sclName{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-left: 250px;
+    padding: 20px;
+    color: rgb(9, 70, 123);
 }
