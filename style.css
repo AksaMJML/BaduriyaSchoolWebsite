@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 #logo{
@@ -18,9 +17,9 @@
     background-color: rgb(3, 84, 73);
     height: 120px;
     margin-top: -24px;
-    display: flex;        /* add flex to align items */
-    align-items: center;  /* vertical center */
-    justify-content: space-between; /* space between logo and nav links */
+    display: flex;       
+    align-items: center;  
+    justify-content: space-between; 
     padding: 0 20px;
 }
 
@@ -36,13 +35,13 @@
 
 .nav_pages nav {
     display: flex;
-    gap: 30px; /* space between links */
+    gap: 30px; 
     margin-right: 50px;
 }
 
 .nav_pages .main_nav {
     text-decoration: none;
-    font-size: 24px; /* smaller for better alignment */
+    font-size: 24px; 
     color: aliceblue;
 }
 
@@ -144,11 +143,12 @@ nav a:hover {
 }
 
 .page_footer #icons {
-    display: flex;               /* Flexbox for icons */
+    display: flex;              
     justify-content: center;
     align-items: center;
-    gap: 20px;                   /* Optional: space between icons */
-}
+    gap: 20px; 
+    color: rgb(249, 218, 63);       
+}           
 
 #icons i{
     padding-top: 20px;
@@ -160,14 +160,15 @@ nav a:hover {
 }
 
 .page_footer i:hover{
-    color: rgb(14, 15, 15);
+    /* color: rgb(14, 15, 15); */
     transform: scale(1.13);
+    color: rgb(249, 218, 63);
 }
 
 #details {
     display: flex;
-    justify-content: center; /* horizontal centering */
-    align-items: center;     /* vertical centering */
+    justify-content: center; 
+    align-items: center;    
     margin-top: 20px;
     color: aliceblue;
   }
@@ -205,3 +206,65 @@ nav a:hover {
     justify-content: center;
     padding-top: 20px;
   }
+
+  .main_topics{
+    text-align: center; 
+    margin-top: 10px;
+  }
+
+  .contact{
+    margin-top: 0px;
+    margin-left: 20px;
+   
+
+  }
+
+  .contact h1{
+    padding-bottom: 20px;
+    width: 296.65px;
+    padding-top: 200px;
+    border-top-width: -35px;
+    margin-top: -266px;
+  }
+  .contact p{
+    margin-bottom: 20px;
+   
+  }
+
+  .in_row{
+    margin-left: 20px;
+  }
+
+  input[type=text], select, textarea {
+    margin-right: 20px;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
