@@ -90,14 +90,13 @@ nav a{
     text-decoration: none;
     font-size: 30px;
     margin: 10px;
+    color: rgb(1, 70, 58);;
 }
 
 nav a:hover {
-    color: rgb(134, 1, 94);
+    color: rgb(217, 214, 18);
     
 }
-
-
 
 .img_gal{
     display: flex;
@@ -210,6 +209,13 @@ nav a:hover {
   .main_topics{
     text-align: center; 
     margin-top: 10px;
+    color: #034f46;
+    font-size: 50px;
+  }
+  
+  .main_topics p{
+    text-align: center;
+    
   }
 
   .contact{
@@ -225,6 +231,7 @@ nav a:hover {
     padding-top: 200px;
     border-top-width: -35px;
     margin-top: -266px;
+    color: #034f46;
   }
   .contact p{
     margin-bottom: 20px;
@@ -237,17 +244,17 @@ nav a:hover {
 
   input[type=text], select, textarea {
     margin-right: 20px;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -257,14 +264,54 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.academics {
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  color: #034f46;
+}
+
+.academics h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.academics h2 {
+  margin-top: 30px;
+  font-size: 28px;
+  color: rgb(3, 84, 73);
+}
+
+.academics p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.academics ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.academics li::before {
+  content: "✔ ";
+  color: rgb(3, 84, 73);
+}
+
+h3{
+    color: #034f46;
 }
