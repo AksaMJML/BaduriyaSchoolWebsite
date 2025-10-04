@@ -14,12 +14,71 @@
     width: 60px;
 }
 
+.nav_pages { 
+    background-color: rgb(3, 84, 73);
+    height: 120px;
+    margin-top: -24px;
+    display: flex;        /* add flex to align items */
+    align-items: center;  /* vertical center */
+    justify-content: space-between; /* space between logo and nav links */
+    padding: 0 20px;
+}
+
+.nav_pages #logo{ 
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: left;
+    justify-content: left;
+    float: left;
+    width: 60px;
+}
+
+.nav_pages nav {
+    display: flex;
+    gap: 30px; /* space between links */
+    margin-right: 50px;
+}
+
+.nav_pages .main_nav {
+    text-decoration: none;
+    font-size: 24px; /* smaller for better alignment */
+    color: aliceblue;
+}
+
+.nav_pages .main_nav:hover {
+    color: rgb(249, 218, 63);
+}
+/* .nav_pages{
+    background-color: rgb(3, 84, 73);
+    height: 100px;
+    margin-top: -24px;
+}
+.nav_pages #logo{ 
+    margin-left: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    justify-content: left;
+    float: left;
+    width: 60px;
+}
+
+.nav_pages .main_nav{
+    text-align: right;
+    margin-right: 30px;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+} */
+
 #sclName{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     margin-left: 250px;
     padding: 20px;
-    color: rgb(11, 18, 24);
+    color: rgb(1, 70, 58);
 }
 
 nav{
@@ -38,6 +97,8 @@ nav a:hover {
     color: rgb(134, 1, 94);
     
 }
+
+
 
 .img_gal{
     display: flex;
@@ -61,6 +122,18 @@ nav a:hover {
     filter: brightness();
     transform: scale(1.15);
 } 
+
+.abt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.abt p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
 
 .page_footer{
     margin-top: 10px;
