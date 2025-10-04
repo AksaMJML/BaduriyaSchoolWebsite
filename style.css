@@ -65,13 +65,20 @@ nav a:hover {
 .page_footer{
     margin-top: 10px;
     background-color: rgb(3, 84, 73);
-    height: 250px;
-    justify-content: center;
+    height: 200px;
+    
 
 }
 
-.page_footer i{
-    padding: 20px;
+.page_footer #icons {
+    display: flex;               /* Flexbox for icons */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;                   /* Optional: space between icons */
+}
+
+#icons i{
+    padding-top: 20px;
     color: white;
     font-size: 50px;
     text-align: center;
@@ -80,6 +87,48 @@ nav a:hover {
 }
 
 .page_footer i:hover{
-    color: rgb(118, 243, 218);
-    transform: scale(1.75);
+    color: rgb(14, 15, 15);
+    transform: scale(1.13);
 }
+
+#details {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;     /* vertical centering */
+    margin-top: 20px;
+    color: aliceblue;
+  }
+
+  #details table {
+    border-collapse: collapse;
+  }
+
+  #details td {
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  #details i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #details p{
+    font-size: 18px;
+  }
+
+  #copyright{
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    padding-top: 20px;
+  }
